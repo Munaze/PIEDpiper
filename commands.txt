@@ -1,0 +1,9 @@
+--- to  start the server ---
+python manage.py runserver 
+
+--- to open Shell ---
+python manage.py shell  
+
+--- to make changes to database ---
+python manage.py makemigrations music // to check for the changes
+python manage.py migrate // to make the changes pernmanent in database 
